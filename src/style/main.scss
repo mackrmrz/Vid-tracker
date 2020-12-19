@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    display: flex;
+    
+    .app-header {
+        &__header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+
+@import './info-boxes.scss';
