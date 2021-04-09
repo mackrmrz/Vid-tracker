@@ -1,0 +1,23 @@
+.app-live{
+    padding-top: 10px;
+
+    &__content {
+        padding: 10px 10px;
+    }
+
+    .table{
+        &__container{
+            margin-top: 20px;
+            overflow: scroll;
+            height: 400px;
+            color: #6a5d5d;
+        }
+    }
+
+    .table__container tr:nth-of-type(odd){
+        background-color: #f3f2f8;
+    }
+}
+
+//add distance in the table row or tr
+// padding to table td

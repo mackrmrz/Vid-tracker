@@ -4,16 +4,41 @@ body {
 }
 
 .app{
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
     .app-header {
         &__header{
             display: flex;
             justify-content: space-between;
+            align-items: center;
+
+            h1{
+                padding: .8rem;
+                font-weight: 600;
+                color: rgb(97, 20, 20);
+            }
+        }
+    }
+
+
+    .app-infoBoxes {
+        padding: 10px 10px;
+        height: auto;
+        width: 100%;
+        
+        &__wrapper{
+            display: flex;
+            justify-content: space-around;
             align-items: center;
         }
     }
 }
 
 
+
+
 @import './info-boxes.scss';
+@import './table.scss';
+@import './map.scss';
